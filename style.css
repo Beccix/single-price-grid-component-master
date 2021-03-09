@@ -12,11 +12,29 @@ body {
     font-weight: 400, 700;
     background-color: var(--light-gray);
 }
-.community {
-    background-color: rgb(248, 233, 233);
+.join-community {
+    padding: 1.2rem;
 }
-#community-h2, #subscription-sign {
+.community, .subscription, .whyus  {
+    padding-top: 1em;
+    padding-left: 1rem;
+    margin-top: 0;
+    margin-left: 0;
+}
+.community {
+    background-color: rgb(255, 255, 255);
+}
+.community-text {
+    color: var(--cyan);
+    margin: 0;
+    padding-bottom: 1.80rem;
+    text-decoration: bolt-solid;
+}
+.community-h2, #subscription-sign {
     color: var(--bright-yellow)
+}
+.join-text { 
+    color: var(--grayish-blue);
 }
 .subscription {
     background-color: var(--cyan);
@@ -29,4 +47,5 @@ body {
     --bright-yellow: hsl(71, 73%, 54%);
     --light-gray: hsl(204, 43%, 93%);
     --grayish-blue: hsl(218, 22%, 67%);
+    --paddingz-x: padding: 1.5;
 }
