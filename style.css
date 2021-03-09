@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'karla' ,sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 400, 700;
+    background-color: var(--light-gray);
+}
+.community {
+    background-color: rgb(248, 233, 233);
+}
+#community-h2, #subscription-sign {
+    color: var(--bright-yellow)
+}
+.subscription {
+    background-color: var(--cyan);
+}
+.whyus { 
+    background-color: var(--grayish-blue);
+}
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
