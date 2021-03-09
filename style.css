@@ -16,8 +16,10 @@ body {
     padding: 1.2rem;
 }
 .community, .subscription, .whyus  {
-    padding-top: 1em;
-    padding-left: 1rem;
+    padding-top: 1.50rem;
+    padding-left: 1.5rem;
+}
+div h1 {
     margin-top: 0;
     margin-left: 0;
 }
@@ -30,7 +32,7 @@ body {
     padding-bottom: 1.80rem;
     text-decoration: bolt-solid;
 }
-.community-h2, #subscription-sign {
+.community-h2 {
     color: var(--bright-yellow)
 }
 .join-text { 
@@ -38,8 +40,47 @@ body {
 }
 .subscription {
     background-color: var(--cyan);
+    padding-bottom: 1.2rem;
+}
+.subscription-text {
+    color: var(--light-gray);
+    font-style: bold;
+}
+.price {
+    font-size: 2.4rem;
+    font-style: bold;
+    color: var(--light-gray)
+}
+#subscription-h1 {
+    margin-bottom: 0;
+}
+#subscription-price-month {
+    opacity: 0.50;
+    margin-left: .70rem;
+}
+#subscription-text-p {
+    font-size: 1.2rem;
+    margin-top: 0
+}
+#button {
+    width: 50%;
+}
+#subscription-sign {
+    font-size: large;
+    font-size: 1.20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-gray);
+    background-color: var(--bright-yellow);
+    text-decoration: none;
+    width: 17rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    border-radius: 0.30rem;
 }
 .whyus { 
+    
     background-color: var(--grayish-blue);
 }
 :root {
